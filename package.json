@@ -16,6 +16,9 @@
 	"engines": {
 		"node": ">= 0.4.0"
 	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"homepage": "https://github.com/io84team/passport-ethereum#readme",
 	"keywords": [
 		"passport",
@@ -26,10 +29,12 @@
 		"address",
 		"signature"
 	],
-	"licenses": [{
-		"type": "MIT",
-		"url": "http://www.opensource.org/licenses/MIT"
-	}],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
 	"main": "./lib",
 	"name": "passport-ethereum",
 	"scripts": {
